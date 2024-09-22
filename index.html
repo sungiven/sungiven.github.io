@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-neutral-900 text-white">
+    <section class="snow">
+      <div class="snowflake"><i class="fa-regular fa-snowflake"></i></div>
+      <div class="snowflake1"><i class="fa-regular fa-snowflake"></i></div>
+      <div class="snowflake2"><i class="fa-regular fa-snowflake"></i></div>
+      <div class="snowflake3"><i class="fa-regular fa-snowflake"></i></div>
+      <div class="snowflake4"><i class="fa-regular fa-snowflake"></i></div>
+      <div class="snowflake5"><i class="fa-regular fa-snowflake"></i></div>
+      <div class="snowflake6"><i class="fa-regular fa-snowflake"></i></div>
+      <div class="snowflake7"><i class="fa-regular fa-snowflake"></i></div>
+      <div class="snowflake8"><i class="fa-regular fa-snowflake"></i></div>
+      <div class="snowflake9"><i class="fa-regular fa-snowflake"></i></div>
+      <div class="snowflake10"><i class="fa-solid fa-snowflake"></i></div>
+      <div class="snowflake11"><i class="fa-solid fa-snowflake"></i></div>
+      <div class="snowflake12"><i class="fa-regular fa-snowflake"></i></div>
+      <div class="snowflake13"><i class="fa-regular fa-snowflake"></i></div>
+      <div class="snowflake14"><i class="fa-regular fa-snowflake"></i></div>
+    </section>
+
+    <div class="flex items-center justify-center h-16 mt-4 md:mt-8 gap-x-3">
+      <img src="./pfp.jpg" class="h-16 rounded-full" alt="" />
+      <div><b>Milad</b><br />Chaotic Harmonizer ∇</div>
+    </div>
+    <div class="flex items-center justify-center py-4 md:py-8 flex-wrap">
+      <button
+        id="adventures-btn"
+        type="button"
+        class="text-white-700 hover:text-white border border-white-600 bg-white hover:bg-white-700 focus:ring-4 focus:outline-none focus:ring-white-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:border-white-500 dark:text-white-500 dark:hover:text-white dark:hover:bg-neutral-500 dark:bg-neutral-900 dark:focus:ring-neutral-600"
+      >
+        Adventures
+      </button>
+      <button
+        id="notes-btn"
+        type="button"
+        class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-neutral-800 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-neutral-400 dark:focus:ring-neutral-600"
+      >
+        Notes
+      </button>
+      <button
+        id="articles-btn"
+        type="button"
+        class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-neutral-800 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-neutral-400 dark:focus:ring-neutral-600"
+      >
+        Articles
+      </button>
+    </div>
+
+    <div id="loader" class="loader-cnt hidden">
+      <div class="loader"></div>
+    </div>
+
+    <div id="empty" class="flex justify-center align-center text-neutral-400">
+      Empty
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4" id="image-gallery"></div>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>

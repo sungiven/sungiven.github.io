@@ -32,5 +32,5 @@ function rain(fall) {
 }
 
 window.onload = function () {
-  rain(80)
+  rain(30)
 }

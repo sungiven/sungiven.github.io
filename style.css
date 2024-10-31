@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: white;
+  color: white;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 20px;
+}
+
+.cnt {
+  max-width: 777px;
+  margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 20px;
+}
+
+.item {
+  width: 100%;
+  padding: 20px 40px;
+  background-color: black;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.pfp-img {
+  /* border-radius: 200px; */
+  max-width: 100px;
+}
